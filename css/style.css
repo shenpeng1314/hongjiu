@@ -1,3 +1,4 @@
+@charset "UTF-8";
 #datou {
   height: 135px;
   background: url(../img/a1.jpg); }
@@ -266,3 +267,48 @@ footer .zhong {
   justify-content: space-between;
   padding-right: 95px;
   box-sizing: border-box; }
+
+footer .zhong ul .tb {
+  font: bold 14px "温软雅黑"; }
+
+footer .zhong ul li {
+  margin-bottom: 8px; }
+
+footer .zhong ul li a {
+  font: 12px "";
+  color: #333; }
+
+footer .rightte {
+  width: 336px;
+  height: 114px;
+  display: flex; }
+
+footer .rightte i {
+  display: block;
+  width: 81px;
+  height: 81px;
+  background: url(../img/zhentu.gif) no-repeat -1px -136px;
+  margin-right: 36px; }
+
+footer .rightte .txt {
+  line-height: 23px;
+  margin-top: -7px; }
+
+footer .bott {
+  height: 70px; }
+
+footer .bott .juzhong {
+  width: 1200px;
+  margin: 14px auto 0;
+  text-align: center;
+  color: #333; }
+
+footer .bott .wen {
+  font-weight: bold;
+  color: #b22423; }
+
+footer .bott .vase a {
+  color: #333; }
+
+footer .bott .diandi a {
+  color: #333; }
