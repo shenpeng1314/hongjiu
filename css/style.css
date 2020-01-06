@@ -14,6 +14,13 @@
 #top .wid {
   color: #fff; }
 
+#top .date {
+  display: inline-block;
+  width: 194px;
+  height: 30px;
+  background: url(../img/zcar.jpg) no-repeat -168px -202px;
+  text-indent: 48px; }
+
 #top a:nth-child(4) {
   margin-left: 700px; }
 
@@ -186,8 +193,7 @@ nav a:nth-child(2) {
   margin: 0 auto; }
 
 #mian ul {
-  width: 100%;
-  height: 100%; }
+  width: 100%; }
 
 #mian ul li {
   width: 179px;

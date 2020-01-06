@@ -35,12 +35,22 @@ $(function(){
                 
             }
             $(".cont").html(str)  
-            // $(".cont2").html(str)  
             
         }
     })
 })
 
-// $.ajax("js/mian.json",function(res){
-//             console.log(res);       
-// },"json")
+
+$(window).on("scroll",function(){
+        console.log(1)
+            $("<a></a>").addClass(".fudaa").prependTo($("body")).css({
+                width:125,
+                height:30,
+                position:"fixed",
+                right:10,
+                top:50,
+                background:"red",
+                zIndex:111
+            })
+                
+})
