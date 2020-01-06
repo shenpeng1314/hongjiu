@@ -1,0 +1,268 @@
+#datou {
+  height: 135px;
+  background: url(../img/a1.jpg); }
+
+#top {
+  width: 1200px;
+  height: 30px;
+  margin: 0 auto;
+  padding: 0 100px;
+  font: 12px/30px "";
+  color: #eee; }
+
+#top .wid {
+  color: #fff; }
+
+#top a:nth-child(4) {
+  margin-left: 700px; }
+
+header {
+  width: 1200px;
+  height: 70px;
+  padding: 0 100px;
+  display: flex;
+  margin: 0 auto; }
+
+header .log {
+  margin: 15px 0 0 0; }
+
+header form {
+  display: flex;
+  height: 30px;
+  margin: 20px 0 0 100px;
+  background: #6a0000;
+  border: 3px solid #6a0000; }
+
+header form .txt {
+  width: 426px;
+  height: 100%;
+  border: none; }
+
+header form .btn {
+  width: 40px;
+  height: 100%;
+  border: none;
+  background: #6a0000;
+  text-align: center; }
+
+nav {
+  width: 1200px;
+  height: 35px;
+  padding: 0 100px;
+  display: flex;
+  margin: 0 auto; }
+
+nav a {
+  height: 14px;
+  display: block;
+  float: left;
+  font-size: 14px;
+  color: #fff;
+  padding: 0 25px;
+  border-right: 1px solid #500001;
+  margin-top: 10px;
+  margin-left: -1px; }
+
+nav a:nth-child(1) {
+  background: #000;
+  width: 210px;
+  height: 35px;
+  margin: 0;
+  line-height: 35px;
+  border-right: 0;
+  text-align: center;
+  padding: 0; }
+
+nav a:nth-child(2) {
+  background: #000;
+  height: 35px;
+  line-height: 35px;
+  margin: 0; }
+
+#banner {
+  width: 1200px;
+  height: 484px;
+  margin: 0px auto;
+  position: relative; }
+
+#banner .left {
+  width: 210px;
+  height: 263px; }
+
+#banner .left .wenxin {
+  width: 210px;
+  height: 217px;
+  background: url(../img/a2.jpg); }
+
+#banner ul {
+  height: 263px;
+  border: 2px solid #000; }
+
+#banner ul li {
+  width: 196PX;
+  padding: 10px 0 10px 10px;
+  position: relative;
+  border-bottom: 1px solid #ccc; }
+
+#banner ul li:nth-child(3) {
+  border-bottom: 0; }
+
+#banner ul li .dab a {
+  display: inline-block;
+  font: 12px "";
+  margin: 10px 9px 0 0;
+  color: #351c20; }
+
+#banner ul li a:hover {
+  color: #6a0000; }
+
+#banner ul li div {
+  width: 196px;
+  font: bold 14px "";
+  display: block; }
+
+#banner ul li dl {
+  width: 338px;
+  height: auto;
+  position: absolute;
+  left: 206px;
+  top: -3px;
+  border: 2px solid #000;
+  background: #e5ddd1;
+  display: none;
+  z-index: 9999; }
+
+#banner ul li:hover dl {
+  display: block; }
+
+#banner ul li dl dd {
+  height: 35px;
+  display: flex;
+  border-bottom: 1px dashed #000; }
+
+#banner ul li dl dd div {
+  width: 230px;
+  height: auto;
+  padding-top: 7px; }
+
+#banner ul li dl dd span {
+  margin: 0 45px 0 5px;
+  line-height: 33px; }
+
+#banner ul li dl dd a {
+  font: 12px "";
+  color: #351c20;
+  margin-right: 24px; }
+
+#banner .banner1 {
+  left: 210PX;
+  top: 0; }
+
+#banner .banner1 #left {
+  background: url(../img/btn.png);
+  opacity: 0.2; }
+
+#banner .banner1 #right {
+  background: url(../img/btn.png) no-repeat -55px 0px;
+  opacity: 0.2; }
+
+#banner .tright {
+  position: absolute;
+  top: 0;
+  right: -2px;
+  height: 484px; }
+
+#ermai {
+  width: 1200px;
+  height: 35px;
+  margin: 5px auto 0;
+  font: bold 14px/35px;
+  border-bottom: 1px solid #ccc; }
+
+#mian {
+  width: 1200px;
+  height: 1914px;
+  margin: 0 auto; }
+
+#mian ul {
+  width: 100%;
+  height: 100%; }
+
+#mian ul li {
+  width: 179px;
+  height: 300px;
+  overflow: hidden;
+  float: left;
+  margin: 15px 0 0 18px; }
+
+#mian img {
+  width: 179px;
+  height: 180px;
+  display: block;
+  margin-bottom: 10px; }
+
+#mian .jiage .lt {
+  font: 30px "";
+  color: #8f0100; }
+
+#mian .jiage .lt em {
+  font: 12px ""; }
+
+#mian .xiangjie {
+  height: 14px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6);
+  color: #fff;
+  display: block; }
+
+#mian .xiangjie .tacar {
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#mian ul li:hover .xiangjie {
+  position: absolute;
+  width: 180px;
+  margin-top: -100px;
+  height: 100px;
+  overflow: hidden;
+  background: rgba(0, 0, 0, 0.6); }
+
+#mian ul li:hover .xiangjie img {
+  width: 80px;
+  height: 25px;
+  position: absolute;
+  right: 0;
+  bottom: 0; }
+
+#mian ul li:hover .bt_wine {
+  margin-top: 24px; }
+
+footer {
+  background: #efefef;
+  height: 325px; }
+
+footer .topimg {
+  width: 1200px;
+  overflow: hidden; }
+
+footer .topimg .ztopimg {
+  width: 100%;
+  height: 74px;
+  background: url(../img/zhentu.gif) no-repeat 0px 0px;
+  margin: 27px 0 27px 238px; }
+
+footer .zhleft {
+  width: 1200px;
+  margin: 0 auto;
+  display: flex; }
+
+footer .zhong {
+  width: 852px;
+  height: auto;
+  display: flex;
+  justify-content: space-between;
+  padding-right: 95px;
+  box-sizing: border-box; }
