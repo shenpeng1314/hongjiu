@@ -329,3 +329,9 @@ body .fudaa {
   z-index: 111;
   background: url(../img/zcar.jpg) no-repeat -250px -658px;
   display: none; }
+
+body .fudaa .baijia {
+  color: #fff;
+  line-height: 30px;
+  margin-left: 90px;
+  text-indent: 48px; }
