@@ -87,93 +87,117 @@ nav a:nth-child(2) {
   line-height: 35px;
   margin: 0; }
 
-#ermai {
-  width: 1200px;
-  height: 35px;
-  margin: 5px auto 0;
-  font: bold 14px/35px;
+#banner {
+  height: 190px;
+  position: absolute;
+  left: 112px;
+  display: none; }
+
+#banner ul {
+  height: 185px;
+  border: 2px solid #000; }
+
+#banner ul li {
+  width: 196PX;
+  padding: 10px 0 10px 10px;
+  position: relative;
   border-bottom: 1px solid #ccc; }
 
-#mian {
-  width: 1200px;
-  height: 1914px;
-  margin: 0 auto; }
+#banner ul li:nth-child(3) {
+  border-bottom: 0; }
 
-#mian ul {
-  width: 100%; }
+#banner ul li .dab a {
+  display: inline-block;
+  font: 12px "";
+  margin: 10px 9px 0 0;
+  color: #351c20; }
 
-#mian ul li {
-  width: 179px;
-  height: 300px;
-  overflow: hidden;
-  float: left;
-  margin: 15px 0 0 18px; }
+#banner ul li a:hover {
+  color: #6a0000; }
 
-#mian img {
-  width: 179px;
-  height: 180px;
-  display: block;
-  margin-bottom: 10px; }
-
-#mian .jiage .lt {
-  font: 30px "";
-  color: #8f0100; }
-
-#mian .jiage .lt em {
-  font: 12px ""; }
-
-#mian .xiangjie {
-  height: 14px;
-  overflow: hidden;
-  background: rgba(0, 0, 0, 0.6);
-  color: #fff;
+#banner ul li div {
+  width: 196px;
+  font: bold 14px "";
   display: block; }
 
-#mian .xiangjie .tacar {
-  width: 80px;
-  height: 25px;
+#banner ul li dl {
+  width: 338px;
+  height: auto;
   position: absolute;
-  right: 0;
-  bottom: 0; }
+  left: 206px;
+  top: -3px;
+  border: 2px solid #000;
+  background: #e5ddd1;
+  display: none;
+  z-index: 9999; }
 
-#mian ul li:hover .xiangjie {
+#banner ul li:hover dl {
+  display: block; }
+
+#banner ul li dl dd {
+  height: 35px;
+  display: flex;
+  border-bottom: 1px dashed #000; }
+
+#banner ul li dl dd div {
+  width: 230px;
+  height: auto;
+  padding-top: 7px; }
+
+#banner ul li dl dd span {
+  margin: 0 45px 0 5px;
+  line-height: 33px; }
+
+#banner ul li dl dd a {
+  font: 12px "";
+  color: #351c20;
+  margin-right: 24px; }
+
+#banner .banner1 {
+  left: 210PX;
+  top: 0; }
+
+#banner .banner1 #left {
+  background: url(../img/btn.png);
+  opacity: 0.2; }
+
+#banner .banner1 #right {
+  background: url(../img/btn.png) no-repeat -55px 0px;
+  opacity: 0.2; }
+
+#banner .tright {
   position: absolute;
-  width: 180px;
-  margin-top: -100px;
-  height: 100px;
-  overflow: hidden;
-  background: rgba(0, 0, 0, 0.6); }
+  top: 0;
+  right: -2px;
+  height: 484px; }
 
-#mian ul li:hover .xiangjie img {
-  width: 80px;
-  height: 25px;
-  position: absolute;
-  right: 0;
-  bottom: 0; }
-
-#mian ul li:hover .bt_wine {
-  margin-top: 24px; }
-
-footer {
+#footer {
   background: #efefef;
   height: 325px; }
 
-footer .topimg {
+#footer .topimg {
   width: 1200px;
   overflow: hidden; }
 
-footer .topimg .ztopimg {
+#footer .topimg .ztopimg {
   width: 100%;
   height: 74px;
   background: url(../img/zhentu.gif) no-repeat 0px 0px;
   margin: 27px 0 27px 238px; }
 
-footer .zhleft {
+#footer .zhleft {
   width: 1200px;
   margin: 0 auto;
   display: flex; }
 
-footer .zhong {
+#footer .zhleft ul {
+  border: 0; }
+
+#footer .zhleft ul li {
+  border: 0;
+  padding: 0; }
+
+#footer .zhong {
   width: 852px;
   height: auto;
   display: flex;
@@ -181,49 +205,49 @@ footer .zhong {
   padding-right: 95px;
   box-sizing: border-box; }
 
-footer .zhong ul .tb {
+#footer .zhong ul .tb {
   font: bold 14px "温软雅黑"; }
 
-footer .zhong ul li {
+#footer .zhong ul li {
   margin-bottom: 8px; }
 
-footer .zhong ul li a {
+#footer .zhong ul li a {
   font: 12px "";
   color: #333; }
 
-footer .rightte {
+#footer .rightte {
   width: 336px;
   height: 114px;
   display: flex; }
 
-footer .rightte i {
+#footer .rightte i {
   display: block;
   width: 81px;
   height: 81px;
   background: url(../img/zhentu.gif) no-repeat -1px -136px;
   margin-right: 36px; }
 
-footer .rightte .txt {
+#footer .rightte .txt {
   line-height: 23px;
   margin-top: -7px; }
 
-footer .bott {
+#footer .bott {
   height: 70px; }
 
-footer .bott .juzhong {
+#footer .bott .juzhong {
   width: 1200px;
-  margin: 8px auto 0;
+  margin: 11px auto 0;
   text-align: center;
   color: #333; }
 
-footer .bott .wen {
+#footer .bott .wen {
   font-weight: bold;
   color: #b22423; }
 
-footer .bott .vase a {
+#footer .bott .vase a {
   color: #333; }
 
-footer .bott .diandi a {
+#footer .bott .diandi a {
   color: #333;
   z-index: 10; }
 

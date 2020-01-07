@@ -16,6 +16,7 @@ function move(ele,data,end){
         }
     }, 30);
 }
+
 function getStyle(ele,attr){
     if(getComputedStyle){
         return getComputedStyle(ele,false)[attr];
