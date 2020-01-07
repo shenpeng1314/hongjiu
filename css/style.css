@@ -317,4 +317,15 @@ footer .bott .vase a {
   color: #333; }
 
 footer .bott .diandi a {
-  color: #333; }
+  color: #333;
+  z-index: 10; }
+
+body .fudaa {
+  width: 125px;
+  height: 30px;
+  position: fixed;
+  right: 10px;
+  top: 50px;
+  z-index: 111;
+  background: url(../img/zcar.jpg) no-repeat -250px -658px;
+  display: none; }

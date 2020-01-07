@@ -40,17 +40,10 @@ $(function(){
     })
 })
 
-
 $(window).on("scroll",function(){
-        console.log(1)
-            $("<a></a>").addClass(".fudaa").prependTo($("body")).css({
-                width:125,
-                height:30,
-                position:"fixed",
-                right:10,
-                top:50,
-                background:"red",
-                zIndex:111
-            })
-                
+    if($(window).scrollTop()>50){
+        $(".fudaa").css("display","block")
+    }else{
+        $(".fudaa").css("display","none")
+    }
 })
